@@ -15,7 +15,7 @@ const GLchar* vertexShaderSource =
 	"layout (location = 0) in vec3 position;\n"
 	"void main()\n"
 	"{\n"
-	"gl_Position = vec4(position.x, position.y, position.z, 1.0);\n"
+	"gl_Position = vec4(position.x, position.y, position.z,1.0f);\n"
 	"}\0" 
 };
 const GLchar* fragmentShaderSource = 
@@ -24,7 +24,7 @@ const GLchar* fragmentShaderSource =
 	"out vec4 color;\n"
 	"void main()\n"
 	"{\n"
-	"color = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+	"color = vec4(0.8f, 0.1f, 0.1f, 0.4f);\n"
 	"}\n\0"
 };
 
@@ -79,7 +79,7 @@ int main() {
 	// Define las dimensiones del viewport
 	glViewport(0, 0, screenWidth, screenHeight);
 
-	//CrearShader();
+	CrearShader();
 
 	// Set up vertex data (and buffer(s)) and attribute pointers
 	GLfloat vertices[] =
@@ -116,12 +116,11 @@ int main() {
 	{
 		// Check if any events have been activiated (key pressed, mouse moved etc.) and call corresponding response functions
 		glfwPollEvents();
-
 		// Render
 		// Clear the colorbuffer
-		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+		glClearColor(0.6f, 0.3f, 1.0f, 0.5f);
 		glClear(GL_COLOR_BUFFER_BIT);
-
+		
 
 		// Draw our first triangle
 
