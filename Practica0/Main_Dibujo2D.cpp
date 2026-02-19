@@ -121,7 +121,7 @@ int main() {
 
 
         glPointSize(10);
-        //glDrawArrays(GL_POINTS,0,1); //Actividad 1
+        glDrawArrays(GL_POINTS,0,1); //Actividad 1
 		//glDrawArrays(GL_POINTS, 0, 4);//Ejercicio 1
         //glDrawArrays(GL_LINES,0,2);//Actividad 2
 		//glDrawArrays(GL_LINES,0,4);//Ejercicio 2 Dos líneas paralelas
@@ -131,7 +131,7 @@ int main() {
         //glDrawElements(GL_TRIANGLES, 3,GL_UNSIGNED_INT,0);//Actividad 4
 		//glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0);//Ejercicio 3 triangulo
 
-		glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);//Ejercicio 4
+		//glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);//Ejercicio 4
 
         
         
