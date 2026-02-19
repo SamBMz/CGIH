@@ -267,8 +267,7 @@ int main() {
 		//view = glm::translate( view, glm::vec3( screenWidth / 2+1, screenHeight / 2+1,0 ) ); // use with orthographic projection
 
 		modelLoc = glGetUniformLocation(ourShader.Program, "model");
-		viewLoc = glGetUniformLocation(ourShader.Program, "view");
-		projecLoc = glGetUniformLocation(ourShader.Program, "projection");
+		
 
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 
