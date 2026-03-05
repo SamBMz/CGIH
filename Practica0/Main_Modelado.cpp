@@ -301,16 +301,16 @@ int main() {
 	 if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
 		 movZ += 0.08f;
 	 if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
-		 rotz += 0.8f;
-	 if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
-		 rotz -= 0.8f;
-	 if (glfwGetKey(window, GLFW_KEY_R) == GLFW_PRESS)
 		 roty += 0.8f;
-	 if (glfwGetKey(window, GLFW_KEY_F) == GLFW_PRESS)
+	 if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
 		 roty -= 0.8f;
-	 if (glfwGetKey(window, GLFW_KEY_T) == GLFW_PRESS)
+	 if (glfwGetKey(window, GLFW_KEY_R) == GLFW_PRESS)
+		 rotz += 0.8f;
+	 if (glfwGetKey(window, GLFW_KEY_F) == GLFW_PRESS)
+		 rotz -= 0.8f;
+	 if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
 		 rotx += 0.8f;
-	 if (glfwGetKey(window, GLFW_KEY_G) == GLFW_PRESS)
+	 if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
 		 rotx -= 0.8f;
  }
 
