@@ -100,17 +100,17 @@ int main()
 	// Set up vertex data (and buffer(s)) and attribute pointers
 	GLfloat vertices[] =
 	{
-		//// Positions            // Colors              // Texture Coords
-		//-0.5f, -0.5f, 0.0f,    1.0f, 1.0f,1.0f,		0.0f,0.0f,
-		//0.5f, -0.5f, 0.0f,	   1.0f, 1.0f,1.0f,		3.0f,0.0f,
-		//0.5f,  0.5f, 0.0f,     1.0f, 1.0f,1.0f,	    3.0f,9.0f,
-		//-0.5f,  0.5f, 0.0f,    1.0f, 1.0f,1.0f,		0.0f,9.0f,
-
 		// Positions            // Colors              // Texture Coords
 		-0.5f, -0.5f, 0.0f,    1.0f, 1.0f,1.0f,		0.0f,0.0f,
-		0.5f, -0.5f, 0.0f,	   1.0f, 1.0f,1.0f,		3.5f,0.0f,
-		0.5f,  0.5f, 0.0f,     1.0f, 1.0f,1.0f,	    3.5f,5.0f,
-		-0.5f,  0.5f, 0.0f,    1.0f, 1.0f,1.0f,		0.0f,5.0f,
+		0.5f, -0.5f, 0.0f,	   1.0f, 1.0f,1.0f,		3.0f,0.0f,
+		0.5f,  0.5f, 0.0f,     1.0f, 1.0f,1.0f,	    3.0f,9.0f,
+		-0.5f,  0.5f, 0.0f,    1.0f, 1.0f,1.0f,		0.0f,9.0f,
+
+		//// Positions            // Colors              // Texture Coords
+		//-0.5f, -0.5f, 0.0f,    1.0f, 1.0f,1.0f,		0.0f,0.0f,
+		//0.5f, -0.5f, 0.0f,	   1.0f, 1.0f,1.0f,		3.5f,0.0f,
+		//0.5f,  0.5f, 0.0f,     1.0f, 1.0f,1.0f,	    3.5f,5.0f,
+		//-0.5f,  0.5f, 0.0f,    1.0f, 1.0f,1.0f,		0.0f,5.0f,
 
 
 		//// Positions            // Colors              // Texture Coords
