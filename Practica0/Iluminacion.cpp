@@ -218,7 +218,7 @@ int main()
         GLint lightPos2Loc = glGetUniformLocation(lightingShader.Program, "light2.position");
         GLint viewPosLoc = glGetUniformLocation(lightingShader.Program, "viewPos");
         glUniform3f(lightPosLoc, lightPos.x + movelightPos, lightPos.y + movelightPos, lightPos.z + movelightPos);
-        glUniform3f(lightPos2Loc, lightPosCat.x + movelightPos2, lightPosCat.y + movelightPos2, lightPosCat.z + movelightPos2);
+        glUniform3f(lightPos2Loc,z lightPosCat.x + movelightPos2, lightPosCat.y + movelightPos2, lightPosCat.z + movelightPos2);
         glUniform3f(viewPosLoc, camera.GetPosition().x, camera.GetPosition().y, camera.GetPosition().z);
 
 
